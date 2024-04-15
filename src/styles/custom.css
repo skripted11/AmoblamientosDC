@@ -1,0 +1,48 @@
+.clientPerfilImgContainer {
+  display:flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.clientPerfilImg {
+  width: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.clientPerfilDescrp{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .locationDiv{
+    text-align: center;
+  }
+
+  .clientPerfilDescrp{
+    text-align: center;
+    align-items: center;
+  }
+  .clientPerfilImg {
+    max-width: 250px; 
+    margin:50px;
+    justify-content: center;
+  }
+  .clientPerfilImgContainer {
+    justify-content: center;
+  }
+  .position-relative h2{
+    font-size: 22px; 
+    text-align: center;
+  }
+  .position-relative h3{
+    font-size: 18px; 
+    text-align: center;
+  }
+  .position-relative h6 {
+    font-size: 16px; 
+    text-align: center;
+  }
+}
